@@ -4,6 +4,8 @@ import type * as Preset from "@docusaurus/preset-classic";
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
+const company = "Sean Johnson";
+
 const config: Config = {
   title: "LiaraDB Docs",
   tagline: "Event Sourcing database",
@@ -139,7 +141,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} ${company}. Built with Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,
